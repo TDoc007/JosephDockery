@@ -1,5 +1,5 @@
 # About Joseph
-![alt text](https://www.eliterestaurantequipment.com/media_cache//media/images/catalog/product/s/d/prodmain/sdfgb_lp_.jpg)
+![alt text](http://www.kinyu-z.net/data/wallpapers/79/978391.jpg)
 Hello I'm Joseph and this is my intro to coding
 1. I live in the US
 2. Born in TN
@@ -8,3 +8,4 @@ Hello I'm Joseph and this is my intro to coding
 5. Want to learn coding
 ---
 [Find me on github](https://github.com/TDoc007)
+[Find ne at outlook](doc2g00@hotmail.com)
