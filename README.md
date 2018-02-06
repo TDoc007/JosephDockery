@@ -8,4 +8,4 @@ Hello I'm Joseph and this is my intro to coding
 5. Want to learn coding
 ---
 [Find me on github](https://github.com/TDoc007)
-[Find ne at outlook](doc2g00@hotmail.com)
+[Find me at outlook](doc2g00@hotmail.com)

@@ -1,17 +1,31 @@
 body{
+  background-color: orange;
   font-family: 'Roboto', sans-serif;
 }
 
 div.image-container{
   text-align: center;
 }
+
 h1 {
   text-align:center;
   font-family: 'Lobster', cursive;
   color:MediumBlue;
 }
+
+p {
+  text-align: center;
+}
+ol {color: MediumBlue;
+  font-family: cursive;
+}
+
 img#hero {
   width: 500px;
   border: 3px solid purple;
   border-radius: 400px;
+}
+
+nav {
+  text-align: center;
 }
