@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <link rel="stylesheet" href="../resumecss/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../resumecss/main.css">
+
   <title>JosephDockery | Projects</title>
 </head>
 <body>
@@ -18,6 +22,7 @@
     <a href="../contact/index.html">Contact Me</a>
 
   </nav>
+
  </li>
 
   <ol>
@@ -32,7 +37,35 @@
     </li>
     <li>Web Store Hack-A-Thon</li>
   </ol>
-
+<center>
 <footer text-align: center>&copy;Copyright 2018</footer>
+</center>
+<script>
+
+//Refactored code for mouseover to remove arrow function
+
+    // $('li').on('mouseover', () => {
+    // $('li').addClass('highlighted')
+    // })
+    //
+    // $('li').on('mouseleave', () => {
+    // $('li').removeClass('highlighted')
+    // })
+
+    $('li').on('mouseover', function highlight(){ // notice: no arrow function!
+  $(this).addClass('highlighted')
+})
+$('li').on('mouseleave', function highlight(){
+  $(this).removeClass('highlighted')
+})
+
+</script>
+
+<p id="date"></p>
+<script>
+document.getElementById("date").innerHTML = Date();
+</script>
+
 </body>
+
 </html>
