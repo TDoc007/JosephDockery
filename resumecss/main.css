@@ -17,16 +17,19 @@ h1 {
 }
 
 h2 {
-text-align:center;
-font-family: 'Lobster', cursive;
-color:MediumBlue;
+  text-align:center;
+  font-family: 'Lobster', cursive;
+  color:MediumBlue;
 }
 
 .name {background-color: blue;}
 
-p {
-  text-align: center;
-}
+p.first {
+  width: 300px;
+  margin: 0 auto;
+  /* text-align: center;
+  text-align: justify; */
+  }
 ol {color: MediumBlue;
   font-family: cursive;
 }
@@ -35,6 +38,7 @@ img#hero {
   width: 500px;
   border: 3px solid purple;
   border-radius: 400px;
+  margin: 20px;
 }
 
 nav {
@@ -54,6 +58,31 @@ footer{
   text-align: center;
 }
 
+.joseph {
+  background-color: white;
+  padding: 10px;
+  margin: 30px;
+}
+
+.about {
+  width: 500px;
+  text-align: justify;
+}
+
+p#date{
+  justify-content: center;
+}
+p.about{
+
+float: right;
+margin: 25px 400px 50px 0px;
+}
+
+div.joseph{
+
+background-color: teal;
+
+}
 /* li a: hover {
     color: white;
 } */
